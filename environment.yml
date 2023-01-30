@@ -1,0 +1,33 @@
+name: kr
+channels:
+  - conda-forge
+
+dependencies:
+  - python
+  - pip
+
+  - numpy
+  - pandas
+  - geopandas
+
+  - earthpy
+  - xarray
+  - rioxarray
+
+  - matplotlib
+  - seaborn
+  - hvplot
+
+# postgres
+  - psycopg2
+
+# Jupyter environment
+  - jupyterlab
+  - jupyterlab-git
+  - jupyterhub
+  - notebook
+  - ipython
+  - ipykernel
+
+
+
